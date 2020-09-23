@@ -1,0 +1,19 @@
+#include<iostream>
+#include<conio.h>
+#include<locale> // prepocesador funcion lenguaje
+#include<ctime>  // prepocesador funcion tiempo
+#include<cstdlib>  // prepocesador funcion rand y srand (numeros aleatorios)
+
+using namespace std;
+
+
+
+int main(){
+
+setlocale(LC_ALL,"Spanish");
+
+
+
+ getch();
+    return 0;
+}

@@ -1,0 +1,43 @@
+/*RECORRER UNA CADENA Y CONTAR LA CANTIDAD DE VOCALES Y CONSONANTES QUR TIENE,
+  INDICAR LUEGO LA FRECUENCIA DE LAS VOCALES Y DE LAS CONSONANTES SOBRE EL TO-
+  TAL DE CARACTERES DE LA CADENA*/
+
+  #include<iostream>
+  #include<conio.h>
+  #include<locale>
+  #include<string.h>
+  #include<stdio.h>
+
+
+  using namespace std;
+
+
+  //char p1[]=" ";
+  string p="";
+  string voc[5]={"a","e","i","o","u"};
+  string cons[22]={"b","c","d","f","g","h","j","k","l","m","n","ñ","p","q","r","s","t","v","w","x","y","z"};
+  int i=0, contador=0;
+
+int main(){
+/*cout<<"Introduzca una palabra: "; cin>>p;
+/printf("La palabra %s, tiene %d caracteres",p,strlen(p1)); ESTO ES UNA FORMA DE RECORRER UNA CADENA USANDO CHAR*/
+
+setlocale(LC_ALL,"Spanish");
+
+
+
+  cout<<"\n\nIntroduzca otra palabra: "; cin>>p;
+
+    cout<<"\nTotal de letras en la palabra "<< p<< " son: "<<p.length();
+
+    while(p!=voc | p!=cons){
+          contador=i + p;
+          i++;
+          contador++;
+
+          }
+cout<<i++;
+
+  getch();
+  return 0;
+  }
