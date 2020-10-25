@@ -17,3 +17,5 @@ setlocale(LC_ALL,"Spanish");
  getch();
     return 0;
 }
+
+static_cast<type>(value): Este comando sirve para transformar directamente int en float o viceversa
